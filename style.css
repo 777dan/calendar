@@ -1,0 +1,13 @@
+table, tr, th, td {
+    margin: auto;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-size: 40px;
+}
+
+th:nth-child(7), td:nth-child(7){
+    color: red;
+}
